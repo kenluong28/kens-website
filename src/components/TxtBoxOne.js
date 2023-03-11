@@ -8,7 +8,6 @@ const TxtBoxOne = () => {
             I am a student at the University of Waterloo and a candidate for a BASc in Computer Engineering. This is my personal portfolio where I document and share my progression through tech.
             </p>
         </div>
-
     )
 }
 

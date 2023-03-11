@@ -5,18 +5,19 @@ const Footer = () => {
     return (
      <div className="footer">
         <div className="container">
+            <h5>// Made with</h5>
             <ul>
-                <li className="nav-item">
-                    <a href="/">.home()</a>
+                <li>
+                    <a>React.js</a>
                 </li>
-                <li className="nav-item">
-                    <a href="/">.about()</a>
+                <li>
+                    <a>AWS 3</a>
                 </li>
-                <li className="nav-item">
-                    <a href="/">.projects()</a>
+                <li>
+                    <a>VS Code</a>
                 </li>
-                <li className="nav-item">
-                    <a href="/">.connect()</a>
+                <li>
+                    <a>Unsplash</a>
                 </li>
             </ul>
         </div>

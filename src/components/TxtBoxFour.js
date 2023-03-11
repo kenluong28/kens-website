@@ -1,14 +1,50 @@
 import React from "react";
+import { FaLinkedin } from 'react-icons/fa';
+import { FaGithub } from 'react-icons/fa';
+import { SiTryhackme } from 'react-icons/si';
+import { IoNewspaperOutline } from 'react-icons/io5';
+import './TxtBoxFour.css'
 
 const TxtBoxFour = () => {
     return (
         <div className="text-box">
-            <h3>Text Box 4</h3>
-            <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
+            <div className="connect">
+                <div className="container">
+                    <h4>Let's get in touch!</h4>
+                    <ul>
+                        <li>
+                            <a href="https://www.linkedin.com/in/ken-luong-457b251bb/">
+                                <FaLinkedin />
+                                <p>.LinkIn()</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/kenluong28">
+                                <FaGithub />
+                                <p>.GitHub()</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://tryhackme.com/p/kluong">
+                                <SiTryhackme />
+                                <p>.TryHackMe()</p>
+                            </a>
+                        </li>
+                    </ul>
+                    <h5>// Download my resume</h5>
+                    <div className="resume">
+                        <ul>
+                            <li>
+                                <a href="/">
+                                    <IoNewspaperOutline />
+                                    <p>.Resume()</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
-
     )
 }
 

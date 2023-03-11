@@ -1,3 +1,4 @@
+import React from 'react'
 import ImgOne from './components/ImgOne'
 import ImgTwo from './components/ImgTwo'
 import ImgThree from './components/ImgThree'
@@ -8,7 +9,6 @@ import TxtBoxThree from './components/TxtBoxThree'
 import TxtBoxFour from './components/TxtBoxFour'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
-
 
 function App() {
   return (
