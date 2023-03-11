@@ -38,7 +38,7 @@ code {
   text-transform: lowercase;
   color: #fff;
   padding: 1rem;
-  font-size: 1.5rem;
+  font-size: 2rem;
   letter-spacing: 10px;
 }
 
@@ -53,6 +53,7 @@ h3 {
   text-align: center;
   padding: 3rem 1rem;
   text-align: center;
+  font-size: large;
 }
 
 ul {
