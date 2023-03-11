@@ -26,7 +26,7 @@ body {
 }
 
 .header:hover {
-  opacity: 0.85;
+  opacity: 0.9;
 }
 
 .header .navbar {
@@ -68,6 +68,11 @@ body {
 
 .navigation li a:hover,
 .navigation li a.active {
+  background: #112434;
+  color: #fff;
+}
+
+.navigation a:hover {
   background: #112434;
   color: #fff;
 }

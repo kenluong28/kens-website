@@ -7,6 +7,7 @@ import TxtBoxTwo from './components/TxtBoxTwo'
 import TxtBoxThree from './components/TxtBoxThree'
 import TxtBoxFour from './components/TxtBoxFour'
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 
 
 function App() {
@@ -25,6 +26,9 @@ function App() {
         <ImgFour />
         <TxtBoxFour />
       </main>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }
